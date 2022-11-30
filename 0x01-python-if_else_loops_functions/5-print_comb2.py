@@ -2,5 +2,6 @@
 for number in range(0, 100):
     if number in range(0,99):
         print("{:02}".format(number), end=", ")
+
 else:
     print("{}".format(number))
